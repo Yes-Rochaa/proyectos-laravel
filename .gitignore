@@ -1,0 +1,55 @@
+# Packages #
+
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+
+#composer file#
+
+/vendor
+/node_modules
+
+
+#Configuration and Credentials#
+
+/.env
+/.env.*
+/.env.local.php
+
+
+#Temporary Files#
+
+/bootstrap/cache/*
+/storage/framework/*
+/storage/logs/*
+/storage/*.key
+
+
+#Dependency#
+
+/composer.lock
+/package-lock.json
+/yarn.lock
+
+
+#Generated Files#
+
+/public/storage
+/public/hot
+/public/mix-manifest.json
+/public/css
+/public/js
+
+#Editor#
+
+/.DS_Store
+/.Thumbs.db
+/.idea
+/.vscode
+
